@@ -12,5 +12,9 @@
     },
     "devDependencies": {
         "prettier": "^3.6.2"
+    },
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "uuid": "^13.0.0"
     }
 }
