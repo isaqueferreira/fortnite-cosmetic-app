@@ -8,13 +8,15 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "migration": "node src/db/postgres/migrations/exec.js"
+        "migration": "node src/db/postgres/migrations/exec.js",
+        "start:dev": "node --watch index.js"
     },
     "devDependencies": {
         "prettier": "^3.6.2"
     },
     "dependencies": {
         "bcrypt": "^6.0.0",
-        "uuid": "^13.0.0"
+        "uuid": "^13.0.0",
+        "validator": "^13.15.23"
     }
 }
